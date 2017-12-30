@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ConstraintSetZone</string>
+    <string name="java">Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.</string>
+    <string name="kotlin">Kotlin is a statically-typed programming language that runs on the Java virtual machine and also can be compiled to JavaScript source code or use the LLVM compiler infrastructure.</string>
+</resources>

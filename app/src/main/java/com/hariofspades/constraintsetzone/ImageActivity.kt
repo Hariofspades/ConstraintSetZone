@@ -23,7 +23,6 @@ class ImageActivity : AppCompatActivity() {
         val constraint2 = ConstraintSet()
         constraint2.clone(this, R.layout.activity_image_alt)
 
-
         findViewById<ImageView>(R.id.imageView).setOnClickListener{
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
                 TransitionManager.beginDelayedTransition(root)
@@ -34,6 +33,5 @@ class ImageActivity : AppCompatActivity() {
         }
 
     }
-
 
 }

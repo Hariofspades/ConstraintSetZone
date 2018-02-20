@@ -10,9 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ImageActivity" />
-        <activity android:name=".CarouselActivity"></activity>
-        <activity android:name=".ShoppingActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".CarouselActivity" />
+        <activity
+            android:name=".ShoppingActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

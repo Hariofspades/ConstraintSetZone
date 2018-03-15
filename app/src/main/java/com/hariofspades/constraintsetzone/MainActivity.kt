@@ -23,8 +23,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, CarouselActivity::class.java))
         }
 
-        nestActivity.setOnClickListener {
-            //startActivity(Intent(this, ))
+        speakerActivity.setOnClickListener {
+            startActivity(Intent(this, SpeakerActivity::class.java))
         }
     }
 }

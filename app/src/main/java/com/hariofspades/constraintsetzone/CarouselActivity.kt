@@ -28,7 +28,7 @@ class CarouselActivity : AppCompatActivity() {
 
     private fun setupFullScreen() {
         requestWindowFeature(Window.FEATURE_NO_TITLE)
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN)
     }
 
@@ -64,7 +64,7 @@ class CarouselActivity : AppCompatActivity() {
     }
 
 
-    fun updateConstraints(@LayoutRes id: Int) {
+    private fun updateConstraints(@LayoutRes id: Int) {
 
         val newConstraintSet = ConstraintSet()
         newConstraintSet.clone(this, id)

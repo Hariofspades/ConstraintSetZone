@@ -45,6 +45,18 @@
         app:layout_constraintTop_toBottomOf="@+id/carActivity" />
 
     <Button
+        android:id="@+id/speakerActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:text="Speaker Activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shopActivity" />
+
+    <Button
         android:id="@+id/nestActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,5 +66,5 @@
         android:text="Nested Activity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/shopActivity" />
+        app:layout_constraintTop_toBottomOf="@+id/speakerActivity" />
 </android.support.constraint.ConstraintLayout>

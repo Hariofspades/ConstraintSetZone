@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:id="@+id/speakerRoot"
+    tools:context="com.hariofspades.constraintsetzone.SpeakerActivity">
+
+    <ImageView
+        android:id="@+id/droidconImg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="start"
+        android:padding="12dp"
+        android:text="I’m a unicorn developer, currently working for a non-profit organisation called Habba as an Android Developer and a UX engineer. I’m also the world’s first Google certified Associate Android developer. I love public speaking and blogging. I'm a regular speaker at Google Developer Group events, a guest writer for PacktPub and a blogger at Medium. My hobbies include close-up magic, lock picking and digital painting."
+        android:textAlignment="viewStart"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="2:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/droidconImg" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorAccent"
+        android:gravity="start"
+        android:padding="8dp"
+        android:text="Hari Vignesh"
+        android:textAlignment="viewStart"
+        android:textColor="#000"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/droidconImg"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="#1dcaff"
+        android:padding="8dp"
+        android:text="@string/twitter"
+        android:textColor="#000"
+        app:layout_constraintEnd_toStartOf="@+id/droidconImg"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        android:layout_marginRight="8dp" />
+</android.support.constraint.ConstraintLayout>

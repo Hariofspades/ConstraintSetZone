@@ -23,12 +23,12 @@ class ShoppingActivity : AppCompatActivity() {
     private fun setupAnimations() {
         askSize.setOnClickListener {
             updateConstraints(R.layout.activity_shopping_alt)
-            askSize.setText("ADD TO CART - 1234 INR")
+            askSize.text = "ADD TO CART - 1234 INR"
         }
 
         close.setOnClickListener {
             updateConstraints(R.layout.activity_shopping)
-            askSize.setText("SELECT SIZE")
+            askSize.text = "SELECT SIZE"
         }
     }
 

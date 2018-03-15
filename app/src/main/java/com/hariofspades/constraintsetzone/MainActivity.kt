@@ -26,5 +26,9 @@ class MainActivity : AppCompatActivity() {
         speakerActivity.setOnClickListener {
             startActivity(Intent(this, SpeakerActivity::class.java))
         }
+
+        nestActivity.setOnClickListener {
+            startActivity(Intent(this, NestedActivity::class.java))
+        }
     }
 }

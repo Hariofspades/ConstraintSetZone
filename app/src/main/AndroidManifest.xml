@@ -26,7 +26,8 @@
             android:label="@string/title_activity_scrolling"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".SpeakerActivity" />
-        <activity android:name=".NestedActivity"></activity>
+        <activity android:name=".NestedActivity" />
+        <activity android:name=".ImageJavaActivity"></activity>
     </application>
 
 </manifest>
